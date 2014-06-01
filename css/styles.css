@@ -21,6 +21,28 @@ img.album {
 }
 
 .orange {
-	background-color: #ffa333;
+	background-color: #f77033;
 }
+
+#myModal h3 {
+	margin-top: 25px;
+}
+
+.reveal-modal .close-reveal-modal {
+	color: #f77033;
+}
+
+a.previous {
+	font-weight: 700;
+	font-size: 20px;
+	float: left;
+}
+
+a.next {
+	font-weight: 700;
+	font-size: 20px;
+	float: right;
+}
+
+
 
