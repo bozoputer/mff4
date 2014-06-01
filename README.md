@@ -1,3 +1,6 @@
 #MIXTAPES FOR FRIENDS
 
-A website for the mixtapes I make for some of my friends.
+Refactoring a website for the mixtapes I make for some of my friends.
+
+Current version here: http://mixtapes.eboone.me.
+
