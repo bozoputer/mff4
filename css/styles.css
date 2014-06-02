@@ -20,11 +20,15 @@ img.album {
 	display: block;	
 }
 
-#myModal h3 {
+.orange {
+	color: #f77033;
+}
+
+.reveal-modal h3.orange {
 	margin-top: 25px;
 }
 
-.reveal-modal .close-reveal-modal {
+.reveal-modal .orange.close-reveal-modal {
 	color: #f77033;
 }
 
