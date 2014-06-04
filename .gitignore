@@ -1,5 +1,6 @@
 assets/*
 config.codekit
-sublime-workspace
-sublime-project
+*.sublime-workspace
+*.sublime-project
 scss/*
+preview.html
