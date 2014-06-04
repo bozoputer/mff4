@@ -32,17 +32,12 @@ img.album {
 	color: #f77033;
 }
 
-a.previous {
-	font-weight: 700;
-	font-size: 20px;
-	float: left;
-}
-
-a.next {
-	font-weight: 700;
-	font-size: 20px;
+.fi-arrow-right {
+	font-size: 40px;
 	float: right;
 }
 
-
-
+.fi-arrow-left {
+	font-size: 40px;
+	float: left;
+}
