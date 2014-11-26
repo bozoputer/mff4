@@ -3,6 +3,9 @@
 	margin: 0;
 }
 
+html {
+	background-color: #000;
+}
 
 .fullWidth {
    width: 100%;
