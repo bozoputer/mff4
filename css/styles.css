@@ -27,7 +27,7 @@ img.album {
 	color: #f77033;
 }
 
-.reveal-modal h3.orange {
+.reveal-modal h3.orange, .reveal-modal h3.blue {
 	margin-top: 15px;
 }
 
@@ -44,3 +44,12 @@ img.album {
 	font-size: 40px;
 	float: left;
 }
+
+.blue {
+	color: #3490ee;
+}
+
+.reveal-modal .blue.close-reveal-modal {
+	color: #3490ee;
+}
+
