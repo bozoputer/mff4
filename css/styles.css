@@ -23,17 +23,30 @@ img.album {
 	display: block;	
 }
 
-.orange {
+/*.orange {
 	color: #f77033;
-}
+}*/
 
-.reveal-modal h3.orange, .reveal-modal h3.blue {
+/*.blue {
+	color: #3490ee;
+}
+*/
+.reveal-modal h3.orange, .reveal-modal h3.blue, .reveal-modal h3.pink {
 	margin-top: 15px;
 }
 
-.reveal-modal .orange.close-reveal-modal {
+.orange, .reveal-modal .orange.close-reveal-modal {
 	color: #f77033;
 }
+
+.blue, .reveal-modal .blue.close-reveal-modal {
+	color: #3490ee;
+}
+
+.pink, .reveal-modal .pink.close-reveal-modal {
+	color: #ff33cc;
+}
+
 
 .fi-arrow-right {
 	font-size: 40px;
@@ -45,11 +58,4 @@ img.album {
 	float: left;
 }
 
-.blue {
-	color: #3490ee;
-}
-
-.reveal-modal .blue.close-reveal-modal {
-	color: #3490ee;
-}
 
