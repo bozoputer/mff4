@@ -31,7 +31,7 @@ img.album {
 	color: #3490ee;
 }
 */
-.reveal-modal h3.orange, .reveal-modal h3.blue, .reveal-modal h3.pink {
+.reveal-modal h3.orange, .reveal-modal h3.blue, .reveal-modal h3.pink, .reveal-modal h3.green {
 	margin-top: 15px;
 }
 
@@ -45,6 +45,9 @@ img.album {
 
 .pink, .reveal-modal .pink.close-reveal-modal {
 	color: #ff33cc;
+}
+.green, .reveal-modal .green.close-reveal-modal {
+	color: #00cc00;
 }
 
 
