@@ -23,14 +23,6 @@ img.album {
 	display: block;	
 }
 
-/*.orange {
-	color: #f77033;
-}*/
-
-/*.blue {
-	color: #3490ee;
-}
-*/
 .reveal-modal h3.orange, .reveal-modal h3.blue, .reveal-modal h3.pink, .reveal-modal h3.green {
 	margin-top: 15px;
 }
@@ -50,7 +42,6 @@ img.album {
 	color: #00cc00;
 }
 
-
 .fi-arrow-right {
 	font-size: 40px;
 	float: right;
@@ -59,6 +50,10 @@ img.album {
 .fi-arrow-left {
 	font-size: 40px;
 	float: left;
+}
+
+h3, h5, h6 {
+	color: #555;
 }
 
 
