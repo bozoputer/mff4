@@ -52,8 +52,26 @@ img.album {
 	float: left;
 }
 
-h3, h5, h6 {
-	color: #555;
+h5, h6 {
+	color: #999;
 }
 
+h3 {
+	font-family: "aktiv-grotesk-std",sans-serif;
+	font-style: normal;
+	font-weight: 200;
+}
 
+h5 {
+	font-family: "merriweather",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+h6 {
+	font-family: "merriweather",serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: .9rem;
+}
