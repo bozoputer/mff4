@@ -54,22 +54,17 @@ img.album {
 
 h5, h6 {
 	color: #555;
-}
-
-h3 {
-	font-family: "aktiv-grotesk-std",sans-serif;
+	font-family: "raleway",sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
 
-h5 {
-	font-family: "aktiv-grotesk-std",sans-serif;
-	font-style: normal;
-	font-weight: 400;
-}
-
-h6 {
-	font-family: "aktiv-grotesk-std",sans-serif;
+h4 {
+	font-family: "merriweather",sans-serif;
 	font-style: normal;
 	font-weight: 300;
+}
+
+.supplement {
+	font-size: 1.1rem;
 }
