@@ -23,32 +23,33 @@ img.album {
 	display: block;	
 }
 
-.reveal-modal h3.orange, .reveal-modal h3.blue, .reveal-modal h3.pink, .reveal-modal h3.green {
-	margin-top: 15px;
-}
-
-.orange, .reveal-modal .orange.close-reveal-modal {
+.orange, .reveal-modal .orange.close-reveal-modal, #nav1214 {
 	color: #f77033;
 }
 
-.blue, .reveal-modal .blue.close-reveal-modal {
+.blue, .reveal-modal .blue.close-reveal-modal, #nav0813 {
 	color: #3490ee;
 }
 
-.pink, .reveal-modal .pink.close-reveal-modal {
+.pink, .reveal-modal .pink.close-reveal-modal, #nav0912 {
 	color: #ff33cc;
 }
-.green, .reveal-modal .green.close-reveal-modal {
+.green, .reveal-modal .green.close-reveal-modal, #nav1111 {
 	color: #00cc00;
 }
 
+dialog .close-reveal-modal, .reveal-modal .close-reveal-modal {
+	font-size: 2rem;
+	font-weight: normal;
+}
+
 .fi-arrow-right {
-	font-size: 40px;
+	font-size: 1.5rem;
 	float: right;
 }
 
 .fi-arrow-left {
-	font-size: 40px;
+	font-size: 1.5rem;
 	float: left;
 }
 
@@ -67,4 +68,23 @@ h4 {
 
 .supplement {
 	font-size: 1.1rem;
+}
+
+.top-bar .name h1 a, .top-bar-section ul li > a {
+	color: #555;
+	font-family: "merriweather",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #f1f1f1;
+}
+
+.top-bar {
+    background: none repeat scroll 0% 0% #f1f1f1;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+    color: #555;
 }
