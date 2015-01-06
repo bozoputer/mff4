@@ -92,3 +92,7 @@ h4 {
 .top-bar .toggle-topbar.menu-icon a {
     color: #555;
 }
+
+.top-bar-section .has-dropdown > a:after {
+    border-color:  #555 transparent transparent transparent;
+}
