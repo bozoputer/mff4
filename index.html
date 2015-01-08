@@ -44,7 +44,7 @@
         <li class="divider"></li>
         <li><a href="#" data-reveal-id="rules">Rules</a></li>
         <li class="divider"></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" data-reveal-id="contact">Contact</a></li>
       </ul>
     </section>
   </nav>
@@ -274,6 +274,37 @@
   <div class="flex-video widescreen">
     <iframe width="1280" height="720" src="http://www.youtube.com/embed/wV7ORIKMCa8" frameborder="0" allowfullscreen></iframe>
   </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- Rules modal -->
+<div id="contact" class="reveal-modal large" data-reveal>
+          <h3>Get in touch via e-mail</h3>
+              <p class="contact_info">All fields are required</p>
+              
+              <form method="post" action="php/contact-send.php" id="contact_form">
+          
+
+            <p><label class="form_label" for='name'>Name</label>
+              <input id='form_name' type='text' name='name' class="textbox" value='' /></p>
+              
+            <p><label class="form_label" for='email'>E-mail</label>
+              <input id='form_email' type='text' name='email' class="textbox" value='' /></p>
+              
+            <p><label class="form_label" for='message'>Message</label>
+              <textarea id='form_message' rows='5' cols='25' name='message' class="textbox"></textarea></p>
+        
+            <input id='form_submit' type='submit' name='submit' value='Send message' />
+            
+            <!-- hidden input for basic spam protection -->
+            <div class='hide'>
+              <label for='spamCheck'>Do not fill out this field</label>
+              <input id="spamCheck" name='spam_check' type='text' value='' />
+            </div>
+                  
+                
+          </form>   
+          <!-- contact form ends here-->  
   <a class="close-reveal-modal">&#215;</a>
 </div>
 
