@@ -4,3 +4,4 @@ config.codekit
 *.sublime-project
 scss/*
 preview.html
+config.php
