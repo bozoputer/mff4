@@ -1357,7 +1357,7 @@ $(document).ready(function() {
     $("img.album").each(function() {
         var src = $(this).attr(src);
         $(this).click(function(event) { // when someone clicks these links
-            _gaq.push(["_trackEvent", "Albums", "Clicked", text, , false]); // create a custom event
+            _gaq.push(["_trackEvent", "Albums", "Clicked", src, , false]); // create a custom event
         });
     });
  
