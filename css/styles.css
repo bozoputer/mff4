@@ -96,3 +96,29 @@ h4 {
 .top-bar-section .has-dropdown > a:after {
     border-color:  #555 transparent transparent transparent;
 }
+
+.animated {
+  -webkit-transition: all 3.5s ease;
+     -moz-transition: all 3.5s ease;
+       -o-transition: all 3.5s ease;
+      -ms-transition: all 3.5s ease;
+          transition: all 3.5s ease;
+  -webkit-transform: rotateY(360deg);
+     -moz-transform: rotateY(360deg);
+       -o-transform: rotateY(360deg);
+      -ms-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+.animated2 {
+  -webkit-transition: all 2.5s ease;
+     -moz-transition: all 2.5s ease;
+       -o-transition: all 2.5s ease;
+      -ms-transition: all 2.5s ease;
+          transition: all 2.5s ease;
+  -webkit-transform: rotateY(-360deg);
+     -moz-transform: rotateY(-360deg);
+       -o-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+          transform: rotateY(-360deg);
+}

@@ -61,7 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="row collapse fullWidth">
   <div class="small-12 columns">
-    <a href="#" data-reveal-id="dec14-01"><img id="tape1214" class="album" src="img/1214/liquidSwords.jpg" alt="GZA - Liquid Swords" /></a>
+    <a href="#" data-reveal-id="dec14-01"><img id="tape1214" class="album animated" src="img/1214/liquidSwords.jpg" alt="GZA - Liquid Swords" /></a>
 
     <a href="#" data-reveal-id="dec14-02"><img class="album" src="img/1214/murderToExcellence.jpg" alt="Jay-Z and Kanye West - Watch The Throne" /></a>
     
@@ -108,7 +108,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     <a href="#" data-reveal-id="dec14-19"><img class="album" src="img/1214/phoenix.jpg" alt="A$AP Rocky - LONG.LIVE.A$AP" />
     
-    <a href="#" data-reveal-id="aug13-01"><img id="tape0813" class="album" src="img/0813/hometheme.jpg" alt="Antonio Pinto - Senna Original Motion Picture Soundtrack" />
+    <a href="#" data-reveal-id="aug13-01"><img id="tape0813" class="album animated" src="img/0813/hometheme.jpg" alt="Antonio Pinto - Senna Original Motion Picture Soundtrack" />
   </div>
 </div>
 <div class="row collapse fullWidth">
@@ -160,7 +160,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     <a href="#" data-reveal-id="aug13-20"><img class="album" src="img/0813/lilacwine.jpg" alt="Jeff Buckley - Grace" />
     
-    <a href="#" data-reveal-id="sep12-01"><img id="tape0912" class="album" src="img/0912/ramona.jpg" alt="Various Artists - Love Jones: The Music" />
+    <a href="#" data-reveal-id="sep12-01"><img id="tape0912" class="album animated" src="img/0912/ramona.jpg" alt="Various Artists - Love Jones: The Music" />
   </div>
 </div>
 <div class="row collapse fullWidth">
@@ -213,7 +213,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <a href="#" data-reveal-id="sep12-20"><img class="album" src="img/0912/onyourownagain.jpg" alt="Scott Walker - 4" />
 
-    <a href="#" data-reveal-id="nov11-01"><img id="tape1111" class="album" src="img/1111/phoenix.jpg" alt="Phoenix - Wolfgang Amadeus Phoenix" />
+    <a href="#" data-reveal-id="nov11-01"><img id="tape1111" class="album animated" src="img/1111/phoenix.jpg" alt="Phoenix - Wolfgang Amadeus Phoenix" />
   </div>
 </div>
 <div class="row collapse fullWidth">
@@ -1354,20 +1354,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="js/jquery.easing.js"></script>
 <script>
 $(function() {
-    $('#tapes li a').bind('click',function(event){
-        var $anchor = $(this);
-
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top -45
-        }, 1500,'easeInOutBack');
-        /*
-        if you don't want to use the easing effects:
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1000);
-        */
-        event.preventDefault();
-    });
+  $('#tapes li a').on('click', function(event) {
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $($anchor.attr('href')).offset().top - 45
+      }, 1500, 'easeInOutBack');
+      event.preventDefault();
+    $($anchor.attr('href')).toggleClass('animated animated2');
+  });
 });
 </script>
 </body>
