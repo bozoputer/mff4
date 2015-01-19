@@ -130,3 +130,9 @@ h4 {
       -ms-transform: rotateY(-360deg);
           transform: rotateY(-360deg);
 }
+
+.rules {
+	color: #f77033;
+	text-align: center;
+	font-family: "merriweather", sans-serif;
+}
