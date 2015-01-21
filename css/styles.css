@@ -19,7 +19,6 @@ html, body {
 }
 
 img.album {
-	width: 20%; /* 288px / 1440px */
 	float: left;
 	padding: 0;
 	position: relative;
@@ -135,4 +134,20 @@ h4 {
 	color: #f77033;
 	text-align: center;
 	font-family: "merriweather", sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+/* Large Screens */
+@media only screen and (min-width: 64.063em) {  
+	img.album {
+		width: 20%; /* 288px / 1440px */
+	}
+}
+
+/* Small Screens */
+@media only screen and (max-width: 40em) { 
+	img.album {
+		width: 50%; /* 288px / 1440px */
+	}
 }
