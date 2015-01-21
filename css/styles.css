@@ -151,7 +151,7 @@ h4 {
 		width: 25%; /* 288px / 1440px */
 	}
 
-	.animated {
+/*	.animated {
 		-webkit-transition: none;
 	    -moz-transition: none;
 	    -o-transition: none;
@@ -163,7 +163,7 @@ h4 {
 	    -ms-transform: none;
 	    transform: none;
 	}
-
+*/
 }
 
 /* Small Screens */
