@@ -145,9 +145,43 @@ h4 {
 	}
 }
 
+/* Medium Screens */
+@media only screen and (min-width: 40.063em) { 
+	img.album {
+		width: 25%; /* 288px / 1440px */
+	}
+
+	.animated {
+		-webkit-transition: none;
+	    -moz-transition: none;
+	    -o-transition: none;
+	    -ms-transition: none;
+	  	transition: none;
+	  	-webkit-transform: none;
+	    -moz-transform: none;
+	    -o-transform: none;
+	    -ms-transform: none;
+	    transform: none;
+	}
+
+}
+
 /* Small Screens */
 @media only screen and (max-width: 40em) { 
 	img.album {
 		width: 50%; /* 288px / 1440px */
+	}
+
+	.animated {
+		-webkit-transition: none;
+	    -moz-transition: none;
+	    -o-transition: none;
+	    -ms-transition: none;
+	  	transition: none;
+	  	-webkit-transform: none;
+	    -moz-transform: none;
+	    -o-transform: none;
+	    -ms-transform: none;
+	    transform: none;
 	}
 }
