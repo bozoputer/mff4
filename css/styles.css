@@ -79,13 +79,12 @@ h4 {
 	font-weight: 400;
 }
 
-.top-bar-section ul li > a {
+.top-bar-section ul li > a, .top-bar .name h1 {
 	color: #555;
 }
 
 .top-bar .name h1 {
 	padding-left: 10px;
-	color: #fff;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -97,7 +96,7 @@ h4 {
 }
 
 .top-bar .toggle-topbar.menu-icon a {
-    color: #fff;
+    color: #555;
     font-family: "merriweather",sans-serif;
 	font-style: normal;
 	font-weight: 400;
