@@ -236,7 +236,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="rules" class="reveal-modal large" data-reveal>
   <h6 class="rules">Mixtapes for Friends - Rules</h6>
   <div class="flex-video widescreen">
-    <iframe width="1280" height="720" src="http://www.youtube.com/embed/wV7ORIKMCa8" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="http://www.youtube.com/embed/wV7ORIKMCa8?enablejsapi=1&rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal orange">&#215;</a>
 </div>
@@ -244,6 +244,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Contact modal -->
 <div id="contact" class="reveal-modal tiny" data-reveal>
   <a class="close-reveal-modal orange">&#215;</a>
+  <h6 class="rules">Contact me</h6>
+  <br />
+  <ul class="small-block-grid-3">
+    <li><a href="http://www.twitter.com/tronicboone" target="_blank"><img src="img/contact/twitter.png" /></a></li>
+    <li><a href="http://www.facebook.com/tronicboone" target="_blank"><img src="img/contact/fb.png" /></a></li>
+    <li><a href="#" class="email"><img src="img/contact/email.png" /></a></li>
+  </ul>
 </div>
 
 <!-- DECEMBER 2014 -->
@@ -1323,6 +1330,14 @@ $(function() {
     $($anchor.attr('href')).toggleClass('animated animated2');
   });
 });
+</script>
+<script>
+var parts = ['mff', '@', 'mixtapesforfriends', '.', 'com'];
+var elems = document.getElementsByClassName('email');
+var len = elems.length;
+for (var i = 0; i < len; i++) {
+    elems[i].href = 'mailto:' + parts.join('');
+}
 </script>
 </body>
 </html>

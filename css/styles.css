@@ -143,6 +143,10 @@ h4 {
 	font-family: "merriweather", sans-serif;
 }
 
+.small-block-grid-3 {
+	text-align: center;
+}
+
 /* MEDIA QUERIES */
 
 /* Large Screens */
