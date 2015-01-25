@@ -149,6 +149,7 @@ h4 {
 
 .small-block-grid-5 {
 	text-align: center;
+	margin-top: 100px;
 }
 
 /* MEDIA QUERIES */
@@ -158,6 +159,9 @@ h4 {
 	img.album {
 		width: 20%;
 	}
+	.small-block-grid-5 {
+	margin-top: 10px;
+	}
 }
 
 /* Medium Screens */
@@ -165,11 +169,17 @@ h4 {
 	img.album {
 		width: 33.33%;
 	}
+	.small-block-grid-5 {
+		margin-top: 10px;
+	}
 }
 
 /* Small Screens */
 @media only screen and (max-width: 40em) { 
 	img.album {
 		width: 50%;
+	}
+	.small-block-grid-5 {
+		margin-top: 45px;
 	}
 }
