@@ -41,6 +41,10 @@ img.album {
 	color: #00cc00;
 }
 
+.gray, .reveal-modal .gray.close-reveal-modal {
+	color: #555;
+}
+
 dialog .close-reveal-modal, .reveal-modal .close-reveal-modal {
 	font-size: 2rem;
 	font-weight: normal;
@@ -143,7 +147,7 @@ h4 {
 	font-family: "merriweather", sans-serif;
 }
 
-.small-block-grid-3 {
+.small-block-grid-5 {
 	text-align: center;
 }
 
